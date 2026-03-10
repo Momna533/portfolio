@@ -1,35 +1,71 @@
-# Personal Portfolio Website - Momna Ijaz
+# 🌐 Personal Portfolio Website
 
-## Overview
+A minimalist, responsive portfolio website built with **HTML, CSS, and JavaScript**.  
+This project showcases my skills, services, and projects, and includes a working contact form.
 
-A professional portfolio website showcasing skills, projects, and contact information. Designed to be recruiter-ready and minimal.
+---
 
-## Features
+## 🚀 Live Demo
 
-- Hero section with name, tagline, and Hire Me button
-- About Me section with profile photo and bio
-- Skills section with ratings
-- Projects section linking to demos
-- Contact section with email and LinkedIn
-- Smooth scroll navigation (JavaScript)
-- Hover effects for interactive polish
+👉 [View Website](https://portfolio-lac-rho-5zxoj2o3ig.vercel.app/)
 
-## Tech Stack
+---
 
-- HTML5
-- CSS3 (Flexbox, transitions)
-- JavaScript (smooth scroll)
+## 📸 Screenshots
 
-## Deployment
+### Home Page
 
-- Live Demo: [\[Demo Link Here\]](https://portfolio-lac-rho-5zxoj2o3ig.vercel.app/)
-- GitHub Repo: [\[Repo Link Here\]](https://github.com/Momna533/portfolio)
+![Home Screenshot](assets/home.png)
 
-## Screenshots
+### Portfolio Section
 
-![Desktop Screenshot](portfolio-desktop.png)
-![Mobile Screenshot](portfolio-mobile.png)
+![Portfolio Screenshot](assets/portfolio.png)
 
-## Author
+_(Add actual screenshots after deployment)_
 
-Momna Ijaz – Frontend Developer
+---
+
+## 📌 Features
+
+- Responsive design (mobile-first)
+- Hero, About, Services, Portfolio, Contact sections
+- Interactive contact form with validation
+- SEO meta tags + favicon
+- Hosted on Netlify/GitHub Pages
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** → semantic structure
+- **CSS3** → Flexbox/Grid, responsive design
+- **JavaScript** → form validation, interactivity
+
+---
+
+## 📂 Project Structure
+
+index.html
+style.css
+script.js
+assets/
+
+Code
+
+---
+
+## 📖 How to Run Locally
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/Momna533/portfolio
+   Open index.html in your browser.
+   ```
+
+Customize content in index.html, styles in style.css, and scripts in script.js.
+
+📧 Contact
+Created by Momna Ijaz  
+Frontend Developer & Freelancer
+
+Email: [Your Email](momnadev533gb@gmail.com)
