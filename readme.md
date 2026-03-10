@@ -21,8 +21,6 @@ This project showcases my skills, services, and projects, and includes a working
 
 ![Portfolio Screenshot](assets/portfolio.png)
 
-_(Add actual screenshots after deployment)_
-
 ---
 
 ## 📌 Features
