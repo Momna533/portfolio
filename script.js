@@ -28,12 +28,11 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 document
   .getElementById("contactForm")
   .addEventListener("submit", async function (e) {
-    e.preventDefault(); // stop redirect
+    e.preventDefault(); // stop the browser from following the redirect
 
     const form = e.target;
     const formMessage = document.getElementById("formMessage");
 
-    // Show "sending..." feedback
     formMessage.textContent = "Sending...";
     formMessage.style.color = "blue";
 
@@ -44,12 +43,15 @@ document
         headers: { Accept: "application/json" },
       });
 
+      const result = await response.json(); // parse JSON response
+
       if (response.ok) {
         formMessage.textContent = "Message sent successfully!";
         formMessage.style.color = "green";
         form.reset();
       } else {
-        formMessage.textContent = "Oops! Something went wrong.";
+        formMessage.textContent =
+          result.message || "Oops! Something went wrong.";
         formMessage.style.color = "red";
       }
     } catch (error) {
