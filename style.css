@@ -14,6 +14,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* ===========================
@@ -27,6 +28,12 @@ body {
   color: var(--body-text-color);
 }
 
+header,
+section {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
 h1 {
   font-size: 3.5rem; /* ~56px for hero heading */
   font-weight: 700;
@@ -108,8 +115,11 @@ nav {
 
 .btn:hover {
   background: var(--secondary-color);
+  transition: background 0.3s ease;
 }
-
+.contact_btn {
+  transition: background 0.3s ease;
+}
 /* ===========================
    Sections (General)
 =========================== */
@@ -221,6 +231,7 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
 /*===============================
 Responsive Adjustments
 ===============================*/

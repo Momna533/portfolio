@@ -24,3 +24,30 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   formMessage.style.color = "green";
   document.getElementById("contactForm").reset();
 });
+
+// document
+//   .getElementById("contactForm")
+//   .addEventListener("submit", async function (e) {
+//     e.preventDefault();
+//     console.log("form submitted");
+//     const form = e.target;
+//     const formMessage = document.getElementById("formMessage");
+//     console.log("form", form);
+
+//     try {
+//       const response = await fetch(form.action, {
+//         method: form.method,
+//         body: new FormData(form),
+//         headers: { Accept: "application/json" },
+//       });
+//       console.log("response", response);
+//       if (response.ok) {
+//         formMessage.textContent = "Message sent successfully!";
+//         form.reset();
+//       } else {
+//         formMessage.textContent = "Oops! Something went wrong.";
+//       }
+//     } catch (error) {
+//       formMessage.textContent = "Error sending message.";
+//     }
+//   });

@@ -154,11 +154,32 @@
     <!-- Contact Section -->
     <section id="contact">
       <h2>Contact Me</h2>
-      <form id="contactForm">
-        <input type="text" id="name" placeholder="Your Name" required />
-        <input type="email" id="email" placeholder="Your Email" required />
-        <textarea id="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send</button>
+      <form
+        id="contactForm"
+        method="POST"
+        action="https://formspree.io/f/xwvraega"
+      >
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button class="contact_btn" type="submit">Send</button>
       </form>
       <p id="formMessage"></p>
     </section>
